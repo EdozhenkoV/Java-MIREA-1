@@ -12,12 +12,12 @@ public class Book {
         this.year = year;
     }
 
-    public void setName() { this.name = name; }
+    public void setName(String name) { this.name = name; }
     public String getName() { return name; }
-    public void setPages() { this.pages = pages; }
+    public void setPages(int pages) { this.pages = pages; }
     public int getPage() { return pages; }
-    public void setYear() { this.year = year; }
+    public void setYear(int year) { this.year = year; }
     public int getYear() { return year; }
 
-    public String toString() { return "Название книги: "+this.name+" Количество страниц: "+this.pages+" Год издания: "+this.year; }
+    public String toString() { return "Название книги: "+name+" Количество страниц: "+pages+" Год издания: "+year; }
 }
